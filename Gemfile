@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -48,3 +49,15 @@ gem 'newrelic_rpm'
 # gem 'debugger', group: [:development, :test]
 
 gem 'pg'
+=======
+# A sample Gemfile
+source "https://rubygems.org"
+
+ gem "rails", '4.0.2'
+
+#Monitor app.
+ gem 'newrelic_rpm'
+
+#Base de Datos
+ gem "pg", "0.17.0"
+>>>>>>> ff18e93492d5aa2f9d64a5c7cead81ae44f784f7
